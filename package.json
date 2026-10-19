@@ -1,0 +1,46 @@
+{
+  "name": "glm-statusline",
+  "version": "1.6.1",
+  "description": "GLM Coding Plan 狀態欄（修復 5H/周池錯標，新增 7D 與 Cache 顯示位）；patched fork of @wangjs-jacky/glm-coding-plan-statusline",
+  "main": "src/index.js",
+  "bin": {
+    "glm-statusline": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "node bin/cli.js"
+  },
+  "keywords": [
+    "glm",
+    "zhipu",
+    "claude-code",
+    "statusline",
+    "coding-plan",
+    "token-usage",
+    "mcp",
+    "cache"
+  ],
+  "author": "wangjs-jacky",
+  "contributors": [
+    "JSD-SpeedUP"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSD-SpeedUP/glm-statusline.git"
+  },
+  "homepage": "https://github.com/JSD-SpeedUP/glm-statusline#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "docs/",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {}
+}
